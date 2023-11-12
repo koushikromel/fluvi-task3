@@ -19,10 +19,10 @@ This API is used to get the Details of a country.
     ```
 
 ## Endpoints
-1. GET Country Data
+1. Get the Country Data
     Get the Country Details by country_code
     -   Method: GET
-    -   Endpoint: /country/{country_code}
+    -   Endpoint: http://0.0.0.0:3000/country/{country_code}
     -   Parameters:
         - country_code: str
     -   Request: GET /country/in
